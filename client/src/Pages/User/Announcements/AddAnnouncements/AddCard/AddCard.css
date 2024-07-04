@@ -1,0 +1,141 @@
+.full{
+    background-color: #505050;
+    width: 80%;
+    padding: 4vh;
+    border-radius: 1.5vh;
+    margin-left: 8vw;
+}
+.title-a{
+    color: #59FF30;
+    font-family: Jost;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.015rem;
+}
+.context{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.00875rem;
+}
+.sec-grp{
+    padding: 1.5vh;
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 0.3125rem;
+    border: none;
+    margin-right: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+    color: #FFF;
+    font-family: Jost;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+    cursor: pointer;
+}
+
+.sec-grp:hover{
+    color: #59FF30;
+    border: solid;
+    border-color: #59FF30;
+    border-width: 1px;
+}
+.sec-grp:active{
+    color: #59FF30;
+    border: solid;
+    border-color: #59FF30;
+    border-width: 1px;
+}
+
+.an-detail{
+    background-color: transparent;
+    border: solid;
+    border-color: #59FF30;
+    border-width: 1px;
+    width: 94%;
+    height: 20vh;
+    padding: 2vh;
+
+    color: #FFF;
+    font-family: Jost;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+    border-radius: 1.5vh;
+}
+.an-detail:focus{
+    outline-style: none;
+    border-width: 2px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+@media (max-width:1038px) {
+    .full{
+        width: 75%;
+        margin-left: 7vh;
+    }
+}
+
+@media (max-width:820px) {
+    .full{
+        width: 75%;
+        margin-left: 5vh;
+    }
+}
+
+@media (max-width:538px) {
+    .full{
+        width: 75%;
+        margin-left: 5vw!important;
+    }
+    .title-a{
+        font-size: 3vh;
+    }
+}
+
+.submitting{
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+}
+.sub{
+    width: fit-content;
+    padding: 1vh;
+    font-size: 2.5vh;
+    font-weight: 400;
+    border-radius: 1.5vh;
+    margin-left: auto;
+    margin-right: 2vh;
+    cursor: pointer;
+    
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent ;
+    border: solid;
+    border-radius: 1.5vh;
+}
+
+.sub:hover{
+    border-color: #59FF30;
+    color: #59FF30;
+    background-color: transparent ;
+    border: solid;
+    border-radius: 1.5vh;
+}
+
+@media (max-width:1038px) {
+    .sub{
+        margin-right: 0vh;
+    }
+}

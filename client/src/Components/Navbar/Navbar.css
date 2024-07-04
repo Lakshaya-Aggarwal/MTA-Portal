@@ -1,0 +1,339 @@
+.welc{
+    color: #fff;
+    font-size: 2vh;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.222px;
+    padding-top: 2vh;
+    padding-left: 1vh;
+}
+
+.name{
+    color: #FF432A;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.29px;
+    padding-left: 1vh;
+}
+
+.mail{
+    color: #90A0B7;
+    font-size: 2vh;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+    padding-left: 1vh;
+}
+
+.dash{
+    color: #90A0B7;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
+    font-size: 2.5vh;
+    padding: 1vh;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    color: #109CF1;
+    font-size: 2.5vh;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    padding-left: 1vh;
+}
+.goat{
+    font-size: 2.5vh;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    padding-left: 1vh;
+}
+
+.link{
+    color: #109CF1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -2vh;
+    justify-content: space-between;
+}
+
+.logo{
+    align-items: center;
+    font-size: 3vh;
+}
+
+.focus{
+    padding: 1.5vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.focus:hover,.link-s:hover{
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 1.2vh;
+}
+
+.person-info{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+.sidee{
+    height: 100%;  
+    width: auto;  
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color:#2D2D30; 
+    transition: .5s ease; 
+    overflow-x: hidden; 
+    padding-top: 20px; 
+    display: flex; 
+    flex-direction: column;
+    padding: 2vh;
+    z-index: 1;
+}
+
+.horHead{
+    display: none;
+
+}
+.ham{
+    display: none;
+    background-color: #2D2D30;
+    border: none;
+}
+
+.ham:hover{
+    cursor: pointer;
+}
+.ham p{
+    padding-left: 1vh;
+    font-size: 2.5vh;
+}
+.whole{
+    overflow-x: hidden;
+    position: relative;
+}
+.pcHead{
+    translate: 0vh;
+    transition: ease-in-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vh;
+    background-color: #2D2D30;
+    border-bottom: 1px solid #E3E3E3;
+    position: fixed;
+    z-index: 1;
+}
+.head {
+    flex: 1; 
+    margin-left: 13vh;
+    text-align: center; 
+  }
+
+.logout-btn-pc{
+    text-decoration: none;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: transparent;
+    border: solid;
+    color: #FF432A;
+    margin-left: auto; /* Add this to push the button to the rightmost position */
+    margin-right: 5vh;
+    font-size: 2.25vh;
+    width: 12vh;
+}
+
+.logout-btn-pc:hover{
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 5vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color:#FF432A;
+    border: solid;
+    color: white;
+    border-color: #FF432A;
+}
+
+.pcHead p{
+    color: #fff;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.sidenav{
+    margin-top: 8vh;
+}
+
+.link-s{
+    color: #59FF30;
+    display: flex;
+    padding: 1.5vh;
+    align-items: center;
+}
+
+.foot{
+    margin-top: 30vh;
+    color: #fff;
+    font-size: 2.5vh;
+    margin-left: -1.5vh;
+    justify-content: center;
+    text-align: center;
+}
+.showsub{
+    visibility: hidden;
+}
+
+
+@media (max-width: 1023px) {
+        .pcHead{
+            display: none;
+        }
+        .sidee{
+            transform: translate(-100vh);
+  transition: ease-in-out 0.3s;
+
+        }
+        .ham{
+            color:#FF432A;
+            font-size: xx-large;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+        .horHead{
+            z-index: 1;
+            translate: 0vh;
+            transition: ease-in-out;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            padding: 2vh;
+            background-color: #2D2D30;
+            position: fixed;
+            border-bottom: solid;
+            border-color: #E3E3E3;
+            border-width: 1px;
+        }
+        .logout-btn{
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 5vh;
+            padding: 1vh;
+            border-radius: 1vh;
+            background-color: transparent;
+            border: solid;
+            color: #FF432A;
+            font-size: 2.25vh;
+            width: 12vh;
+        }
+
+        .logout-btn:hover{
+            cursor: pointer;
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 5vh;
+            padding: 1vh;
+            border-radius: 1vh;
+            background-color:#FF432A;
+            border: solid;
+            color: white;
+            border-color: #FF432A;
+        }
+        .show-sidee {
+            transform: translate(0);
+        }
+}
+
+.addLogo{
+    background-color: rgb(0, 0, 0);
+    color: #59FF30;
+    align-items: center;
+    margin-top: 1.5vh;
+    margin-left: auto;
+}
+.addLogo:hover{
+    background-color: rgb(0, 0, 0);
+    color:#FF432A;
+    margin-left: auto;    
+}
+
+.admin-mode{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1vh;
+    align-items: center;
+}
+
+.crgr{
+    color: #FF432A;
+    padding-left: 1vh;
+    font-size: 2.5vh;
+    padding-right: 2vh;
+}
+
+.edit{
+    background-color: transparent;
+    border: solid;
+    border-color: #FF432A;
+    padding: 0.5vh;
+    font-size: 2vh;
+    color: #FF432A;
+    border-radius: 1vh;
+    border-width: 2px;
+    width: 12vh;
+}
+
+.edit:hover{
+    cursor: pointer;
+    background-color: #FF432A;
+    color: white;
+}
+
+.linkabt{
+    text-decoration: none!important;
+}
+
+.foot:hover{
+    transition: ease 0.2s;
+}
+.lucky,.chatz,.grass{
+    font-weight: 600;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 0.25vh;
+    font-size: 3vh;
+}
+.lucky:hover{
+    color: #59FF30;
+}
+.chatz:hover{
+    color: #ff8fd0;
+}
+.grass:hover{
+    color: #70eaff;
+}
+
+.annlog{
+    font-size: 2.75vh;
+}
+
+.active-link {
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 1.2vh;
+  }

@@ -1,0 +1,20 @@
+.card-m{
+    background-color: #fff;
+    padding: 2vh;
+    border-radius: 1.5vh;
+    margin: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.card-m:hover{
+    background-color: #d8d8d8;
+}
+
+.whole{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}

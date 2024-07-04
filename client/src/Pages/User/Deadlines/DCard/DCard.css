@@ -1,0 +1,96 @@
+.grpclass-d{
+    color: #4f6aff;
+    font-weight: 700;
+}
+.info-d{
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 0.12;
+    font-size: 2.5vh;
+    text-align: justify;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+}
+
+.card-d{
+    background-color: white;
+    margin: 2vh;
+    border-radius: 1.5vh;
+    padding: 1.5vh;
+}
+
+.card-d.past-due {
+    background-color: #ffbebe;
+  }
+  
+.butf{
+    padding: 0.6vh;
+    border: solid;
+    margin: 1vh ;
+    border-radius: 0.6em;
+    border-width: 2px;
+}
+
+.p1-d{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+.sub-d{
+    color: #4f6aff;
+    margin: 1.25vh;
+}
+
+.date-d{
+    color: #FF432A;
+    margin-left: auto;
+    margin-right:2vw ;
+    font-size: 2.5vh;
+}
+@media (max-width: 1038px) {
+    .date-d{
+        margin-top: -1vh;
+        margin-bottom: 0.5vh;
+    }    
+
+}
+.deadBarr-d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.del-dead{
+    color: #ffffff;
+    font-weight: 300;
+    /* text-decoration: underline; */
+    border: solid;
+    background-color: #FF432A;
+    border-color: #FF432A;
+    padding: 1vh;
+    border-radius: 1vh;
+    font-size: 2vh;
+    cursor: pointer;
+    margin-bottom: 1vh;
+}
+.del-dead:hover{
+    border: solid;
+    background-color: transparent;
+    color: #FF432A;
+}
+
+@media (max-width: 600px) {
+    .deadBarr-d{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .date-d{
+        margin-left:1vh;
+        display: flex;
+    }
+    .info-d{
+        text-align: center;
+    }
+    
+}

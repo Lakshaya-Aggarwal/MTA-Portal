@@ -1,0 +1,135 @@
+.containerr-dd{
+    justify-content: center;
+    margin-left: 13vw;
+    color: black;
+    font-weight: 700;
+    font-size: 2.5vh;
+    letter-spacing: 0.24px;
+    margin-top: 10vh;
+}
+.fullmain{
+    min-height: 100vh;
+}
+
+.deadBard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:-webkit-sticky;
+    justify-content: space-between;
+}
+.butf{
+    padding: 0.6vh;
+    border: solid;
+    margin: 1vh ;
+    border-width: 2px;
+    width: 12vh;
+    text-align: center;
+    font-size: 2.2vh;
+    border-radius: 1vh!important;
+}
+.fend{
+    margin-left: auto;
+    margin-right:2vw ;
+    display: flex;
+    font-size: 2.35vh;
+}
+.butf:hover{
+    color: #FF432A;
+}
+.butf.active {
+    background-color: #FF432A; /* Change this to the desired active button background color */
+    border-color: #FF432A;
+    color: white;
+  }
+
+.butf.active:hover {
+background-color: #FF432A; /* Change this to the desired active button background color */
+border-color: #FF432A;
+color: aliceblue;
+}
+.filter{
+    margin: 2vh;
+    margin-left: 4vh;
+}
+
+@media (max-width: 1038px) {
+    .filter{
+        color: cornsilk;
+        margin: 1vh;
+    }
+    .fend{ 
+    color: cornsilk;
+    }
+}
+@media (max-width: 600px) {
+    .deadBard{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fend{
+        margin:0;
+        display: flex;
+    }
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+.fill{
+    height: auto;
+}
+
+.mobHead{
+    display: none;
+    color: #109cf1;
+    text-align: center;
+    font-size: 4vh;
+}
+.msg{
+    display: none;
+    /* text-align: center; */
+    margin: 3vh;
+    /* color: #FF432A; */
+    /* font-weight: 300; */
+}
+.BUTD{
+    margin-right: 3vw!important;
+    width: 13vh;
+}
+
+.show{
+    display: block;
+}
+@media (max-width:2580px ) {
+    .containerr-dd{
+        margin-left: 30vh;
+    }
+}
+
+
+@media (max-width: 1038px) {
+    .mobHead{
+        display: block!important;
+        color: #109cf1;
+        text-align: center;
+        font-size: 4vh;    
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 1rem;
+        margin-left: 0vh;
+    }    
+    .containerr-dd{
+        margin-left: 1.5vw;
+        margin-top: 15vh;
+    } 
+    .BUTD{
+        color: bisque;
+    }
+}

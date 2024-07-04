@@ -1,0 +1,14 @@
+.heading{
+    display: none;
+}
+@media (max-width:1038px) {
+    .heading{
+        display: flex;
+        color: #109cf1;
+        padding-bottom: 2vh;
+        font-weight: 400;
+        font-size: 3.5vh;
+        align-items: center;
+        justify-content: center;
+    }
+}
