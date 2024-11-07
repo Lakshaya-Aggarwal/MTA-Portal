@@ -1,4 +1,5 @@
 # MY THAPAR ACADEMIA 🏫✨
+https://mtaportal.vercel.app/
 ### A one-stop solution to cater to all your academic needs.  Access your own class information in one single platform with authenticated information posted by CRs and GRs.
 ## Features:
 * Class Announcements
